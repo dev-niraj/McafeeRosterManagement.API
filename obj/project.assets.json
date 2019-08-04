@@ -12642,11 +12642,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
+      "projectUniqueName": "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
       "projectName": "McafeeRosterManagement.API",
-      "projectPath": "D:\\Project\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
+      "projectPath": "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
       "packagesPath": "C:\\Users\\COCO\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\McafeeRosterManagement.API\\obj\\",
+      "outputPath": "D:\\Project\\Final\\McafeeRosterManagement.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
