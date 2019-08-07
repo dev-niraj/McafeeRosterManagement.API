@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj": {}
+    "C:\\Projects\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj": {}
   },
   "projects": {
-    "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj": {
+    "C:\\Projects\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
+        "projectUniqueName": "C:\\Projects\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
         "projectName": "McafeeRosterManagement.API",
-        "projectPath": "D:\\Project\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
-        "packagesPath": "C:\\Users\\COCO\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\Final\\McafeeRosterManagement.API\\obj\\",
+        "projectPath": "C:\\Projects\\Final\\McafeeRosterManagement.API\\McafeeRosterManagement.API.csproj",
+        "packagesPath": "C:\\Users\\nnaik3\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\Final\\McafeeRosterManagement.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\COCO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\nnaik3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

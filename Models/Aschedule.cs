@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
     public partial class Aschedule
     {
-        [Key]
         public int SlNo { get; set; }
         public int? Wwid { get; set; }
         public string SId { get; set; }

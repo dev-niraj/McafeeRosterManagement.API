@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
@@ -14,7 +13,6 @@ namespace McafeeRosterManagement.API.Models
             Users = new HashSet<Users>();
         }
 
-        [Key]
         public int TId { get; set; }
         public string TName { get; set; }
         public int? MgrId { get; set; }

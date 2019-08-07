@@ -26,3 +26,17 @@ D:\Project\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRoster
 D:\Project\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorTargetAssemblyInfo.cache
 D:\Project\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
 D:\Project\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb
+C:\Projects\Final\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.deps.json
+C:\Projects\Final\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.runtimeconfig.json
+C:\Projects\Final\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.runtimeconfig.dev.json
+C:\Projects\Final\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
+C:\Projects\Final\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.csprojAssemblyReference.cache
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.csproj.CoreCompileInputs.cache
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorAssemblyInfo.cache
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorAssemblyInfo.cs
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.AssemblyInfoInputs.cache
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.AssemblyInfo.cs
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorTargetAssemblyInfo.cache
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
+C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb

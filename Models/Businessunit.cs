@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
@@ -12,7 +11,6 @@ namespace McafeeRosterManagement.API.Models
             Users = new HashSet<Users>();
         }
 
-        [Key]
         public int BuId { get; set; }
         public string BuName { get; set; }
         public string BuDescription { get; set; }

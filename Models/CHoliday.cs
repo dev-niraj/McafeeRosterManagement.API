@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
     public partial class CHoliday
     {
-        [Key]
         public int HId { get; set; }
         public string HName { get; set; }
         public DateTime? HDate { get; set; }

@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
@@ -16,12 +15,12 @@ namespace McafeeRosterManagement.API.Models
             UsersHistory = new HashSet<UsersHistory>();
         }
 
-        [Key]
         public int Wwid { get; set; }
         public string Name { get; set; }
         public string Role { get; set; }
         public string Email { get; set; }
-        public string Password { get; set; }
+        public byte[] Passwordhash { get; set; }
+        public byte[] Passwordsalt { get; set; }
         public int? TId { get; set; }
         public string Type { get; set; }
         public long? PhoneNo { get; set; }

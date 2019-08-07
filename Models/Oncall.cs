@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
     public partial class Oncall
     {
-        [Key]
         public int SlNo { get; set; }
         public int? Wwid { get; set; }
         public int? TId { get; set; }

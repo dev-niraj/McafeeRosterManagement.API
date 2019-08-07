@@ -78,7 +78,7 @@ namespace McafeeRosterManagement.API.Models
                 entity.HasOne(d => d.Wo)
                     .WithMany(p => p.Aschedule)
                     .HasForeignKey(d => d.WoId)
-                    .HasConstraintName("aschedule_wo_id_fkey1");
+                    .HasConstraintName("aschedule_wo_id_fkey");
 
                 entity.HasOne(d => d.Ww)
                     .WithMany(p => p.Aschedule)
@@ -451,9 +451,9 @@ namespace McafeeRosterManagement.API.Models
                     .HasColumnName("name")
                     .HasMaxLength(255);
 
-                entity.Property(e => e.Password)
-                    .HasColumnName("password_")
-                    .HasMaxLength(200);
+                entity.Property(e => e.Passwordhash).HasColumnName("passwordhash");
+
+                entity.Property(e => e.Passwordsalt).HasColumnName("passwordsalt");
 
                 entity.Property(e => e.PhoneNo).HasColumnName("phone_no");
 

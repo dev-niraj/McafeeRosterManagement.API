@@ -1,3 +1,4 @@
+using System;
 using System.Threading.Tasks;
 using McafeeRosterManagement.API.Models;
 using Microsoft.EntityFrameworkCore;
@@ -15,8 +16,8 @@ namespace McafeeRosterManagement.API.Repository {
             if (user == null)
                 return null;
 
-            // if (!VerifyPasswordHash(password, user.PasswordHash, user.PasswordSalt))
-            //     return null;
+            if (!VerifyPasswordHash(password, user.Passwordhash, user.Passwordsalt))
+                return null;
 
             return user;
         }
@@ -36,20 +37,19 @@ namespace McafeeRosterManagement.API.Repository {
 
         public async Task<Users> Register(Users user, string password)
         {
-            // byte[] passwordHash, passwordSalt;
-            // CreatePasswordHash(password, out passwordHash, out passwordSalt);
+            Byte[] passwordHash, passwordSalt;
+            CreatePasswordHash(password, out passwordHash, out passwordSalt);
 
-            // user.PasswordHash = passwordHash;
-            // user.PasswordSalt = passwordSalt;
+            user.Passwordhash = passwordHash;
+            user.Passwordsalt = passwordSalt;
 
-            // await _context.Users.AddAsync(user);
-            // await _context.SaveChangesAsync();
+            await _context.Users.AddAsync(user);
+            await _context.SaveChangesAsync();
 
-            // return user;
-            return null;
+            return user;
         }
 
-        private void CreatePasswordHash(string password, out byte[] passwordHash, out byte[] passwordSalt)
+        private void CreatePasswordHash(string password, out Byte[] passwordHash, out Byte[] passwordSalt)
         {
             using (var hmac = new System.Security.Cryptography.HMACSHA512())
             {

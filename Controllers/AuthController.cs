@@ -23,8 +23,41 @@ namespace McafeeRosterManagement.API.Controllers {
 
         }
 
+        [HttpPost("register")]
+        public async Task<IActionResult> Register([FromBody]UserForRegisterDto userForRegisterDto)
+        {
+            userForRegisterDto.Email = userForRegisterDto.Email.ToLower();
+
+            if (await _repo.UserExists(userForRegisterDto.Email))
+                ModelState.AddModelError("Email","Email already exists");
+
+            // validate request
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var userToCreate = new Users
+            {
+                Wwid = userForRegisterDto.Wwid,
+                Name = userForRegisterDto.Name,
+                Role = userForRegisterDto.Role,
+                Email = userForRegisterDto.Email,
+                TId = userForRegisterDto.TId,
+                Type = userForRegisterDto.Type,
+                PhoneNo = userForRegisterDto.PhoneNo,
+                Status = userForRegisterDto.Status,
+                BuId = userForRegisterDto.BuId
+
+            };
+
+            var createUser = await _repo.Register(userToCreate, userForRegisterDto.Password);
+
+            return StatusCode(201);
+        }
+        
+
+
         [HttpPost ("login")]
-        public async Task<IActionResult> Login (UserForLoginDtos userForLoginDtos) {
+        public async Task<IActionResult> Login ([FromBody] UserForLoginDtos userForLoginDtos) {
             var userFromRepo = await _repo.Login (userForLoginDtos.Email, userForLoginDtos.Password);
 
             Console.WriteLine(userForLoginDtos.Email);

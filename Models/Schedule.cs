@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
@@ -11,7 +10,6 @@ namespace McafeeRosterManagement.API.Models
             Aschedule = new HashSet<Aschedule>();
         }
 
-        [Key]
         public int ShId { get; set; }
         public DateTime? StartDate { get; set; }
         public DateTime? EndDate { get; set; }

@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
     public partial class Swap
     {
-         [Key]
         public int SlNo { get; set; }
         public int? FromWwid { get; set; }
         public int? ToWwid { get; set; }

@@ -1,12 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace McafeeRosterManagement.API.Models
 {
     public partial class Outofoffice
     {
-        [Key]
         public int SlNo { get; set; }
         public int? Wwid { get; set; }
         public DateTime? Odate { get; set; }
