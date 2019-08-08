@@ -19,5 +19,6 @@ namespace McafeeRosterManagement.API.Models
         public virtual Schedule Sh { get; set; }
         public virtual WeekOff Wo { get; set; }
         public virtual Users Ww { get; set; }
+        public virtual ICollection<Users> Users { get; set; }
     }
 }
