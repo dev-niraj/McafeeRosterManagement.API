@@ -40,3 +40,17 @@ C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRoste
 C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorTargetAssemblyInfo.cache
 C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
 C:\Projects\Final\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb
+D:\Project\SuperFinal\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.deps.json
+D:\Project\SuperFinal\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.runtimeconfig.json
+D:\Project\SuperFinal\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.runtimeconfig.dev.json
+D:\Project\SuperFinal\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
+D:\Project\SuperFinal\McafeeRosterManagement.API\bin\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.csprojAssemblyReference.cache
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.csproj.CoreCompileInputs.cache
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorAssemblyInfo.cache
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorAssemblyInfo.cs
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.AssemblyInfoInputs.cache
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.AssemblyInfo.cs
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.RazorTargetAssemblyInfo.cache
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.dll
+D:\Project\SuperFinal\McafeeRosterManagement.API\obj\Debug\netcoreapp2.2\McafeeRosterManagement.API.pdb

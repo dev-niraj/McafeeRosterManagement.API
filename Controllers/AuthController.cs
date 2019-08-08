@@ -60,9 +60,6 @@ namespace McafeeRosterManagement.API.Controllers {
         public async Task<IActionResult> Login ([FromBody] UserForLoginDtos userForLoginDtos) {
             var userFromRepo = await _repo.Login (userForLoginDtos.Email, userForLoginDtos.Password);
 
-            Console.WriteLine(userForLoginDtos.Email);
-            Console.WriteLine(userForLoginDtos.Password);
-
             if (userFromRepo == null)
                 return Unauthorized ();
 
@@ -72,9 +69,10 @@ namespace McafeeRosterManagement.API.Controllers {
                 new Claim (ClaimTypes.Name, userFromRepo.Name.ToString())
             };
 
-            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:TOken").Value));
+            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
+
             var tokenDescriptor = new SecurityTokenDescriptor
             {
                 Subject = new ClaimsIdentity(claims),
