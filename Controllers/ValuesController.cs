@@ -15,15 +15,15 @@ namespace McafeeRosterManagement.API.Controllers {
             _context = context;
         }
         // GET api/values
-        [HttpGet]
+        [HttpGet("values")]
         public IActionResult GetValues() {
-            var values = _context.Users.ToList();
+            var values = _context.Aschedule.Where(x => x.Wwid == 20008607);
             return Ok(values);
         }
 
         // GET api/values/5
         [HttpGet ("{id}")]
-        public IActionResult GetValues(int id) {
+        public IActionResult GetValues(int id) { 
             var value = _context.Users.FirstOrDefault(x => x.Wwid == id);
             return Ok(value);
         }

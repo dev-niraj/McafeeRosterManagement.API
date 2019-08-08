@@ -69,10 +69,11 @@ namespace McafeeRosterManagement.API.Controllers {
             var claims = new [] {
                 new Claim (ClaimTypes.NameIdentifier, userFromRepo.Wwid.ToString ()),
                 new Claim (ClaimTypes.Email, userFromRepo.Email.ToString()),
-                new Claim (ClaimTypes.Name, userFromRepo.Name.ToString())
+                new Claim (ClaimTypes.Name, userFromRepo.Name.ToString()),
+                new Claim (ClaimTypes.Role, userFromRepo.Role.ToString())
             };
 
-            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:TOken").Value));
+            var key = new SymmetricSecurityKey (Encoding.UTF8.GetBytes(_config.GetSection("AppSettings:Token").Value));
 
             var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256Signature);
             var tokenDescriptor = new SecurityTokenDescriptor

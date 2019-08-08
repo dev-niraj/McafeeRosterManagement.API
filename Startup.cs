@@ -29,8 +29,12 @@ namespace McafeeRosterManagement.API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RosterDBContext>(options => options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2)
+            .AddJsonOptions(opt => {
+                opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+            });
             services.AddScoped<RosterIAuthRepository, RosterAuthRepository>();
+            services.AddScoped<ReportsIRepository, ReportsRepository>();
             services.AddCors();
         }
 
