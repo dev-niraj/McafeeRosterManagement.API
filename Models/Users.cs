@@ -39,5 +39,6 @@ namespace McafeeRosterManagement.API.Models
         public virtual ICollection<Swap> SwapFromWw { get; set; }
         public virtual ICollection<Swap> SwapToWw { get; set; }
         public virtual ICollection<UsersHistory> UsersHistory { get; set; }
+        public virtual ICollection<Schedule> Schedule { get; set; }
     }
 }

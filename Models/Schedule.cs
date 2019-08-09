@@ -22,6 +22,8 @@ namespace McafeeRosterManagement.API.Models
         public DateTime? ModifiedAt { get; set; }
 
         public virtual Team T { get; set; }
+        public Users User { get; set; }
         public virtual ICollection<Aschedule> Aschedule { get; set; }
+
     }
 }

@@ -6,6 +6,8 @@ namespace McafeeRosterManagement.API.Repository
 {
     public interface ReportsIRepository
     {
-        Task<IEnumerable<Schedule>> GetReport();
+        // Task<IEnumerable<Schedule>> GetReport();
+        Task<IEnumerable<Aschedule>> GetReport();
+        
     }
 }
